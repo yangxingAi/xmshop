@@ -1,0 +1,66 @@
+name: xmshop
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  flutter_screenutil: ^5.9.0
+  flutter_swiper_view: ^1.1.8
+  dio: ^5.4.0
+  flutter_staggered_grid_view: ^0.7.0
+  shared_preferences: ^2.2.2
+  flutter_html: ^3.0.0-beta.2
+  pin_code_fields: ^8.0.1
+  city_pickers: ^1.3.0
+  crypto: ^3.0.2
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  fonts:
+    - family: ityingIcon   #指定一个字体名 根据自己的需求定义
+      fonts:
+        - asset: assets/fonts/iconfont.ttf    
+    - family: userIcon   #指定一个字体名 根据自己的需求定义
+      fonts:
+        - asset: assets/fonts/userIconfont.ttf      
+  assets:
+    - assets/images/xiaomiBanner.png
+    - assets/images/2.0x/xiaomiBanner.png
+    - assets/images/3.0x/xiaomiBanner.png
+    - assets/images/xiaomiBanner2.png
+    - assets/images/2.0x/xiaomiBanner2.png
+    - assets/images/3.0x/xiaomiBanner2.png
+    - assets/images/hot_search.png
+    - assets/images/2.0x/hot_search.png
+    - assets/images/3.0x/hot_search.png
+    - assets/images/service.png
+    - assets/images/2.0x/service.png
+    - assets/images/3.0x/service.png
+    - assets/images/user.png
+    - assets/images/2.0x/user.png
+    - assets/images/3.0x/user.png
+    - assets/images/user_ad1.png
+    - assets/images/2.0x/user_ad1.png
+    - assets/images/3.0x/user_ad1.png    
+    - assets/images/user_ad2.png
+    - assets/images/2.0x/user_ad2.png
+    - assets/images/3.0x/user_ad2.png   
+    - assets/images/logo.png
+    - assets/images/2.0x/logo.png
+    - assets/images/3.0x/logo.png   
+    
+    
